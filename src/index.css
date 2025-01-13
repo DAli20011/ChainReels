@@ -1,0 +1,21 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  overflow: hidden; /* منع أي محتوى زائد */
+  height: 100%; /* تأكد من أن الارتفاع يغطي كامل الشاشة */
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6200ea, #3f51b5); /* نفس خلفية التطبيق */
+  margin: 0;
+  padding: 0;
+}
